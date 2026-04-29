@@ -1,8 +1,8 @@
 package util;
 
 public class LoginHandle {
-    private final Input handler;
-    private final UserDatabase userDB;
+    Input handler;
+    UserDatabase userDB;
 
     public LoginHandle() {
         this.handler = new Input();
