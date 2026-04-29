@@ -12,12 +12,12 @@ public class Input {
         this.input.useLocale(Locale.US);
     }
 
-    public String getString(String prompt) {
+    String getString(String prompt) {
         System.out.print(prompt);
         return input.nextLine();
     }
 
-    public double getValidInput(String prompt, double min, double max) {
+    double getValidInput(String prompt, double min, double max) {
         double value;
 
         while (true) {
@@ -39,7 +39,7 @@ public class Input {
         }
     }
 
-    public int getUnitChoice() {
+    int getUnitChoice() {
         int choice;
 
         while (true) {
@@ -64,7 +64,7 @@ public class Input {
         }
     }
 
-    public char getCharInput(String prompt) {
+    char getCharInput(String prompt) {
         while (true) {
             System.out.print(prompt);
             String line = input.nextLine();
@@ -76,12 +76,12 @@ public class Input {
         }
     }
 
-    public String getUsername() {
+    String getUsername() {
         System.out.print("Username: ");
         return input.nextLine().toLowerCase();
     }
 
-    public String getPassword() {
+    String getPassword() {
         System.out.print("Password: ");
         return input.nextLine();
     }

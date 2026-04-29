@@ -6,21 +6,22 @@ public class BMICalculator {
     int    age, unitChoice;
     double weightKg, heightM;
 
-    public BMICalculator(String name, int age, double weightKg, double heightM) {
+    BMICalculator(String name, int age, double weightKg, double heightM) {
         this.name = name;
         this.age = age;
         this.weightKg = weightKg;
+		this.heightM = heightM;
     }
 
-    public void setUnitChoice(int unitChoice) {
+    void setUnitChoice(int unitChoice) {
         this.unitChoice = unitChoice;
     }
 
-    public double calculateBMI() {
+    double calculateBMI() {
         return weightKg / (Math.pow(heightM,2));
     }
 
-    public String getBMICategory(double bmi) {
+    String getBMICategory(double bmi) {
         if (bmi < 18.5) return "Underweight";
         else if (bmi < 25.0) return "Normal weight";
         else if (bmi < 30.0) return "Overweight";
@@ -29,7 +30,7 @@ public class BMICalculator {
         else return "Obese Class III";
     }
 
-    public void displayInfo(String loggedInAs) {
+    void displayInfo(String loggedInAs) {
         double bmi = calculateBMI();
         String category = getBMICategory(bmi);
 
