@@ -47,7 +47,7 @@ public class BMICalculator {
             double inches   = heightIn % 12;
 
             System.out.printf("Height: %dft %.2fin%n", feet, inches);
-            System.out.printf("Weight: %.2f%n", weightLb);
+            System.out.printf("Weight: %.2flbs%n", weightLb);
         } else {
             System.out.printf("Height: %.2fm%n", heightM);
             System.out.printf("Weight: %.2fkg%n", weightKg);

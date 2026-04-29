@@ -37,4 +37,8 @@ public class UserDatabase {
     public String getLoggedInUser() {
         return loggedInUser;
     }
+
+    public void logout() {
+        loggedInUser = "";
+    }
 }

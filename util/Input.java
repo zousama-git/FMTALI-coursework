@@ -5,7 +5,7 @@ import java.util.Locale;
 
 public class Input {
 
-    Scanner input;
+    private Scanner input;
 
     public Input() {
         this.input = new Scanner(System.in);
