@@ -12,29 +12,31 @@ public class Input {
         this.input.useLocale(Locale.US);
     }
 
-    public String getString(String prompt) { //show message and wait for user input then return it as a string
+    public String getString(String prompt) {
         System.out.print(prompt);
         return input.nextLine();
     }
 
-    public double getValidInput(String prompt, double min, double max) { //message to show user and range
+    public double getValidInput(String prompt, double min, double max) {
         double value;
 
-        while (true) {//keep running till we get a valid input
+        while (true) {
             System.out.print(prompt);
 
-            if (input.hasNextDouble()) { //check if the input is a double
+            if (input.hasNextDouble()) {
                 value = input.nextDouble();
-                input.nextLine(); //clear the line to prevent bugs
-                if (value >= min && value <= max) break; //Checks if the number is within range and If yes >> exit loop
-                else System.out.printf("Please enter a value between %.2f and %.2f.%n%n", min, max);
+                input.nextLine();
+
+                if (value >= min && value <= max) {
+                    return value;
+                }
+                System.out.printf("Please enter a value between %.0f and %.0f.%n%n", min, max);
+
             } else {
-                System.out.println("Invalid input. Please enter a number.\n");
+                System.out.println("That is not a number. Please try again.\n");
                 input.nextLine();
             }
         }
-
-        return value;
     }
 
     public int getUnitChoice() {
@@ -42,29 +44,46 @@ public class Input {
 
         while (true) {
             System.out.println("Select a unit system:");
-            System.out.println("	1. Metric   (kg, m)");
-            System.out.println("	2. Imperial (lbs, in)");
-            System.out.print("Please select either option 1 or option 2: ");
+            System.out.println("[1] Metric   (kg, cm)");
+            System.out.println("[2] Imperial (lbs, inches)");
+            System.out.print("Your choice: ");
 
             if (input.hasNextInt()) {
                 choice = input.nextInt();
                 input.nextLine();
-                if (choice == 1 || choice == 2) break;
-                else System.out.println("Invalid choice. Please enter either 1 or 2.\n");
+
+                if (choice == 1 || choice == 2) {
+                    return choice;
+                }
+                System.out.println("Please enter 1 or 2.\n");
+
             } else {
-                System.out.println("Invalid choice. Please enter either 1 or 2.\n");
+                System.out.println("Please enter 1 or 2.\n");
                 input.nextLine();
             }
         }
-
-        return choice;
     }
 
     public char getCharInput(String prompt) {
-        System.out.print(prompt);
-        char option = Character.toUpperCase(input.next().charAt(0)); //just to get the char but as an uppercase
-        input.nextLine();
-        return option;
+        while (true) {
+            System.out.print(prompt);
+            String line = input.nextLine();
+
+            if (!line.isEmpty()) {
+                return Character.toUpperCase(line.charAt(0));
+            }
+            System.out.println("Please type a character.\n");
+        }
+    }
+
+    public String getUsername() {
+        System.out.print("Username: ");
+        return input.nextLine().toLowerCase();
+    }
+
+    public String getPassword() {
+        System.out.print("Password: ");
+        return input.nextLine();
     }
 
     public void close() {
