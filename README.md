@@ -4,7 +4,7 @@ A Java-based BMI calculator with user authentication and unit conversion support
 
 ## Features
 - Login with existing accounts or continue as Guest
-- Calculates BMI using metric units (kg, cm) and View results in Metric or Imperial units
+- Calculates BMI using metric units (kg, cm) and view results in Metric or Imperial units
 - Classifies results as Underweight, Normal, Overweight, or Obese (Class I-III)
 
 ## Default Accounts
