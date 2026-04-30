@@ -1,5 +1,6 @@
 package util;
 
+//controls all menus and ties together Input, UserDatabase and BMICalculator
 public class LoginHandle {
     private final Input handler;
     private final UserDatabase userDB;
@@ -15,6 +16,7 @@ public class LoginHandle {
         System.out.println("Stay healthy and take care!");
     }
 
+	//shows the opening menu and then it will return true if the user may enter the app
     public boolean loginPrompt() {
         System.out.println("ACCESS MENU");
         System.out.println("[1] Log in");
@@ -36,7 +38,8 @@ public class LoginHandle {
         }
         return false;
     }
-
+	
+	//loops until valid credentials are entered or the user types 'cancel'
     void handleLogin() {
         System.out.println("\nLogin");
         System.out.println("(Only existing accounts are allowed.)");
@@ -65,11 +68,16 @@ public class LoginHandle {
         System.out.println("\nYou have been logged out. Goodbye, " + user + "!");
     }
 
+	/*
+		collects measurements, builds a BMICalculator, and lets the user
+		view results in different units before returning to the main menu
+	*/
     public void runBMI() {
         System.out.println("Hello! Let's calculate your BMI.");
         System.out.println("(Metric units are used for input. You can view in Imperial later.)");
         System.out.println();
-
+		
+		//logged-in users use their account name... guests types their own
         String name;
         if (userDB.isLoggedIn()) {
             name = userDB.getLoggedInUser();
@@ -94,7 +102,8 @@ public class LoginHandle {
             System.out.println();
         } while (repeat == 'Y');
     }
-
+	
+	//option 2 allows the current user to sign-out and the guest user can login
     public void mainMenu() {
         while (true) {
             System.out.println("\nMAIN MENU");

@@ -4,7 +4,7 @@ public class BMICalculator {
 
     String name;
     int    age, unitChoice;
-    double weightKg, heightM;
+    double weightKg, heightM; //always stored in metric and then can be converted for display if needed
 
     BMICalculator(String name, int age, double weightKg, double heightM) {
         this.name = name;
@@ -17,6 +17,7 @@ public class BMICalculator {
         this.unitChoice = unitChoice;
     }
 
+	//standard BMI formula: weight/(height*height) but in metrics
     double calculateBMI() {
         return weightKg / (Math.pow(heightM,2));
     }
@@ -29,7 +30,8 @@ public class BMICalculator {
         else if (bmi < 40.0) return "Obese Class II";
         else return "Obese Class III";
     }
-
+	
+	//prints the BMI results and then pass the logged in username or "" for guest 
     void displayInfo(String loggedInAs) {
         double bmi = calculateBMI();
         String category = getBMICategory(bmi);

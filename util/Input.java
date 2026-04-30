@@ -3,20 +3,22 @@ package util;
 import java.util.Scanner;
 import java.util.Locale;
 
+//this is for all the input and validation 
 public class Input {
 
     Scanner input;
 
     public Input() {
         this.input = new Scanner(System.in);
-        this.input.useLocale(Locale.US);
+        this.input.useLocale(Locale.US); // ensures decimals sue '.' and not ',' only
     }
 
     String getString(String prompt) {
         System.out.print(prompt);
         return input.nextLine();
     }
-
+	
+	//loops until a user enters a valid number [min] or [max]
     double getValidInput(String prompt, double min, double max) {
         double value;
 
@@ -39,6 +41,7 @@ public class Input {
         }
     }
 
+	//loops until the user picks 1 (metric) or 2 (imperial)
     int getUnitChoice() {
         int choice;
 
@@ -63,7 +66,11 @@ public class Input {
             }
         }
     }
-
+	
+	/*
+	reads the first character typed, uppercased
+	loops if nothing ws typed
+	*/
     char getCharInput(String prompt) {
         while (true) {
             System.out.print(prompt);
