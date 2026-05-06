@@ -2,6 +2,7 @@ todo:
 display
 inputs
 verifications 
+validation and encapsulation 
 
 trash?
 🧮 BMI Scale (Body Mass Index)
