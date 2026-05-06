@@ -1,0 +1,14 @@
+todo:
+display
+inputs
+verifications 
+
+trash?
+🧮 BMI Scale (Body Mass Index)
+📊 What Your BMI Number Means
+⚠️ Dangers (if BMI is outside healthy range)
+🔧 How to Improve
+📈 Comparisons (Before vs After)
+
+art
+chcp 65001
