@@ -23,9 +23,23 @@ Build an end-to-end interactive executive dashboard in Excel. This project conso
 ## 🗄️ Project 2: SQL Data Analysis
 
 **Folder:** `/sql-analysis`
+
+**Objective:**
+Perform data cleaning, exploratory analysis and reporting using T-SQL against a retail sales dataset (SuperMart). The analysis explores sales trends, top products, customer segmentation, store performance and promotional impact.
+
+**Key Files:**
+- `SuperMart_TSQL_Capstone.sql` – T-SQL script with schema
+
 ---
 
-## How to Navigate This Repository
+## How to view the BI dashboard
 
-1.  For the **Excel project**, navigate to the `/excel-bi-dashboard` folder and open the `.xlsx` file. Refer to the documentation for a guided walkthrough.
-2.  For the **SQL project**, navigate to the `/sql-analysis/queries` folder and run the scripts in numerical order. The `database_schema.png` explains the table relationships.
+1. Open `excel-bi-dashboard/BI_Dashboard_Capstone.xlsx` in Microsoft Excel.
+2. If the workbook contains external queries or macros, enable content when prompted.
+3. Use the dashboard slicers and buttons to explore sales, customer, and product insights.
+
+## How to run the SQL analysis
+
+1. Open `sql-analysis/SuperMart_TSQL_Capstone.sql` in SQL Server Management Studio or Azure Data Studio.
+2. Create a new database (optional) for the capstone, then execute the script to create objects and populate any sample data included.
+3. Run the queries in the script to reproduce the analyses and result sets (sales trends, top products, customer segments, etc.).
