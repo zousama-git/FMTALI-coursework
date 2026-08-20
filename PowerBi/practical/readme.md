@@ -47,7 +47,7 @@ Practical 1/
 
 **Date:** 21 August 2026
 **Topic:** Transforming Data
-**Video Link:** [PowerBI: Practical 2](www.youtube.com/watch?v=8mgsFAMbMKY) 
+**Video Link:** [PowerBI: Practical 2](https://youtu.be/8mgsFAMbMKY)
 
 ### Overview
 
