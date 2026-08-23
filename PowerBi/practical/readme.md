@@ -67,3 +67,28 @@ Practical 2/
 
 
 ---
+## Practical 3 — Data Model
+
+**Date:** 23 August 2026
+**Topic:** Data Model in Power BI Desktop
+**Video Link:** [PowerBI: Practical 3](https://youtu.be/8mgsFAMbMKY)
+
+### Overview
+
+Practical 3 covered the fundamentals of **Data Model into Power BI**.
+
+The practical focused editing and formatting the data so that it can be presenatable when creating tables as a report.
+
+### Practical Files
+
+```text
+Practical 2/
+├── Data Model in Power BI Desktop.pdf
+└── assets/
+    ├── img/
+    ├── Power BI Documentation Template.docx
+    └── 03-model-data.zip (extracted files present)
+```
+
+
+---
