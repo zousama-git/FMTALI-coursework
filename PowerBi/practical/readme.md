@@ -92,3 +92,28 @@ Practical 2/
 
 
 ---
+
+## Practical 4 — DAX Calculations
+
+**Date:** 24 August 2026
+**Topic:** DAX Calculations in Power BI Desktop
+**Video Link:** [PowerBI: Practical 4](https://youtu.be/8mgsFAMbMKY)
+
+### Overview
+
+Practical 3 covered the fundamentals of **DAX Calculations into Power BI**.
+
+A Power BI data model was built by creating a Salesperson dimension table linked to Sales via `EmployeeKey` and a Date table (`CALENDARAUTO(6)`) with fiscal, pricing, and order metrics. A Matrix visual was configured to display these date-level summaries, and target metrics were enhanced with Variance and Variance Margin measures.
+
+### Practical Files
+
+```text
+Practical 2/
+├── DAX Calculations in Power BI Desktop.pdf
+└── assets/
+    ├── img/
+    └── 03-model-data.zip (extracted files present)
+```
+
+
+---
