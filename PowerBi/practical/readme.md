@@ -71,7 +71,7 @@ Practical 2/
 
 **Date:** 23 August 2026
 **Topic:** Data Model in Power BI Desktop
-**Video Link:** [PowerBI: Practical 3](https://youtu.be/8mgsFAMbMKY)
+**Video Link:** [PowerBI: Practical 3](https://youtu.be/NnyyObUShfs)
 
 ### Overview
 
