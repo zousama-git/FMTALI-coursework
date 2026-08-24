@@ -112,7 +112,7 @@ Practical 2/
 ├── DAX Calculations in Power BI Desktop.pdf
 └── assets/
     ├── img/
-    └── 03-model-data.zip (extracted files present)
+    └── 04-model-data.zip (extracted files present)
 ```
 
 
