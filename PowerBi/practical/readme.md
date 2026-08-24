@@ -97,7 +97,7 @@ Practical 2/
 
 **Date:** 24 August 2026
 **Topic:** DAX Calculations in Power BI Desktop
-**Video Link:** [PowerBI: Practical 4](https://youtu.be/8mgsFAMbMKY)
+**Video Link:** [PowerBI: Practical 4](https://youtu.be/uZ5Jtj5wDLk)
 
 ### Overview
 
@@ -112,7 +112,32 @@ Practical 2/
 ├── DAX Calculations in Power BI Desktop.pdf
 └── assets/
     ├── img/
-    └── 03-model-data.zip (extracted files present)
+    └── 04-dax-calculations.zip (extracted files present)
+```
+
+
+---
+
+## Practical 5 — DAX Calculations
+
+**Date:** 25 August 2026
+**Topic:** Advanced DAX Measures in Power BI Desktop
+**Video Link:** [PowerBI: Practical 5](https://youtu.be/uZ5Jtj5wDLk)
+
+### Overview
+
+Practical 3 covered the fundamentals of **Advanced DAX Measures into Power BI**.
+
+Built matrix table and manipulated and time intelligence functions
+
+### Practical Files
+
+```text
+Practical 2/
+├── Advanced DAX Measures.pdf
+└── assets/
+    ├── img/
+    └── 05-advanced-dax.zip (extracted files present)
 ```
 
 
