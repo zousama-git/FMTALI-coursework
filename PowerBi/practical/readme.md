@@ -40,7 +40,6 @@ Practical 1/
     └── DatabaseBackup.zip (extracted files present)
 ```
 
-
 ---
 
 ## Practical 2 — Transforming Data
@@ -75,21 +74,20 @@ Practical 2/
 
 ### Overview
 
-Practical 3 covered the fundamentals of **Data Model into Power BI**.
+Practical 3 covered the fundamentals of **Data Model**.
 
 The practical focused editing and formatting the data so that it can be presenatable when creating tables as a report.
 
 ### Practical Files
 
 ```text
-Practical 2/
+Practical 3/
 ├── Data Model in Power BI Desktop.pdf
 └── assets/
     ├── img/
     ├── Power BI Documentation Template.docx
     └── 03-model-data.zip (extracted files present)
 ```
-
 
 ---
 
@@ -101,20 +99,19 @@ Practical 2/
 
 ### Overview
 
-Practical 3 covered the fundamentals of **DAX Calculations into Power BI**.
+Practical 4 covered the fundamentals of **DAX Calculations**.
 
 A Power BI data model was built by creating a Salesperson dimension table linked to Sales via `EmployeeKey` and a Date table (`CALENDARAUTO(6)`) with fiscal, pricing, and order metrics. A Matrix visual was configured to display these date-level summaries, and target metrics were enhanced with Variance and Variance Margin measures.
 
 ### Practical Files
 
 ```text
-Practical 2/
+Practical 4/
 ├── DAX Calculations in Power BI Desktop.pdf
 └── assets/
     ├── img/
     └── 04-dax-calculations.zip (extracted files present)
 ```
-
 
 ---
 
@@ -126,19 +123,42 @@ Practical 2/
 
 ### Overview
 
-Practical 3 covered the fundamentals of **Advanced DAX Measures into Power BI**.
+Practical 5 covered **Advanced DAX Measures**.
 
 Built matrix table and manipulated and time intelligence functions
 
 ### Practical Files
 
 ```text
-Practical 2/
+Practical 5/
 ├── Advanced DAX Measures.pdf
 └── assets/
     ├── img/
     └── 05-advanced-dax.zip (extracted files present)
 ```
 
+---
+
+## Practical 6 — Design a Report
+
+**Date:** 25 August 2026
+**Topic:** Design a Report in Power BI Desktop
+**Video Link:** [PowerBI: Practical 6](https://youtu.be/uZ5Jtj5wDLk)
+
+### Overview
+
+Practical 6 covered the fundamentals of **Design a Report**.
+
+I created two-page report of the Overview and Profit sheets. Made use of configuration of the visual fields and formatting the properties of the report for readability.
+
+### Practical Files
+
+```text
+Practical 6/
+├── Design a Report.pdf
+└── assets/
+    ├── img/
+    └── 06-design-report.zip (extracted files present)
+```
 
 ---
