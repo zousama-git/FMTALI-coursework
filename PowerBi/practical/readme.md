@@ -119,7 +119,7 @@ Practical 4/
 
 **Date:** 25 August 2026
 **Topic:** Advanced DAX Measures in Power BI Desktop
-**Video Link:** [PowerBI: Practical 5](https://youtu.be/uZ5Jtj5wDLk)
+**Video Link:** [PowerBI: Practical 5](https://youtu.be/tgULznbBcXg)
 
 ### Overview
 
